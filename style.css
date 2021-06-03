@@ -25,7 +25,7 @@ background-image: linear-gradient(
 .hul { margin: 0}
 .hul li {
 
-  display: inline;
+  display:inline-block;
     font-size: 25px;
     padding: 19px;
     vertical-align: middle;
@@ -42,13 +42,10 @@ background-image: linear-gradient(
   color: #6474a0;}
 
  #first{
- background-image: linear-gradient( 
-79deg
- , #1c2f4a 0%, #4cd5de 74%);
-  
-  width: 70%;
+color: white;
+  width: 100%;
   /*margin : top right bottom left  */
-  margin: 30px 0 30px 15%;
+  margin: 30px 0 30px -2%;
   /* margin-top: 30px;
   margin-right: 0;
   margin-bottom: 30px;
@@ -58,9 +55,13 @@ background-image: linear-gradient(
 }
 
 .imgContainer{
-  display: inline-block;
-  margin-left: 150px;
+      display: inline-block;
+    margin-left: 151px;
+    font-size: 28px;
+  
+  
 }
+img {  box-shadow: 5px 10px rgb(2, 44, 68);border-radius: 63px; }
  .first{   border-bottom: 3px solid rgb(10, 70, 94);
     background-color: #63a4ff;
 background-image: linear-gradient( 
@@ -70,6 +71,7 @@ background-image: linear-gradient(
 }
 
 footer{
+  margin-top:2%; 
  height: 50px;
     color: #3b14a7;
     text-align: center;
@@ -86,3 +88,11 @@ background-image: linear-gradient(
 , #1c2f4a 0%, #4cd5de 74%);
   color: #6474a0;}
 #footerP {color: white;}
+h4 {text-align: center;size:15px ;
+    background-image: linear-gradient( 
+355deg
+ , #060c15 0%, #509296 74%);
+  color: #d4d6db;}
+  h4:hover{background-image: linear-gradient(
+185deg
+, #1c2f4a 0%, #455253 74%); }
