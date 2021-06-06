@@ -9,6 +9,7 @@ document.write("<p style='color:#fff5fd'> *** good bye ( " +userName+ " )*** </p
 var FavoriteSport = prompt("choose number for  your favorite sport : 1-football , 2-basketball , 3-bowling  ? ");
 console.log(FavoriteSport);
 
+
  while ( FavoriteSport   != "1" && FavoriteSport != "2" && FavoriteSport != "3") {
 
     FavoriteSport = prompt("please enter the number OF your FavoriteSport : 1-football , 2-basketball , 3-bowling");
@@ -47,6 +48,7 @@ var imgFun = function () {
 
 }
 }
+
 
 
 
